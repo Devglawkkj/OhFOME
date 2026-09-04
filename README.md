@@ -4,7 +4,7 @@ Demonstração web de uma plataforma de turismo gastronômico que conecta turist
 
 ## Demonstração
 
-[Acessar a versão publicada](https://ohfome-teresina-demo.ivetemesquita1.chatgpt.site)
+[Acessar a versão publicada na Vercel](https://ohfome.vercel.app)
 
 ## O que o protótipo apresenta
 
