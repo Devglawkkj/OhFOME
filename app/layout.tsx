@@ -13,7 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://ohfome-teresina-demo.buzzy-drake-5405.chatgpt.site'),
+  metadataBase: new URL(
+    process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : 'https://ohfome-teresina-demo.ivetemesquita1.chatgpt.site',
+  ),
   title: 'OHFOME — Descubra os sabores de Teresina',
   description:
     'Uma demonstração de turismo gastronômico que conecta pessoas aos pequenos sabores de Teresina.',
